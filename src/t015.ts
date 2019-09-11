@@ -1,7 +1,7 @@
 // 解构数组
 
 //解构赋值
-let input = [1, 2];
+let input: [number, number] = [1, 2];
 let [first, second] = input;
 
 // 相当于
