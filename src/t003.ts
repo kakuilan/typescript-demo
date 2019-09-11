@@ -17,6 +17,6 @@ console.log(x[0].substr(1)); //ok
 //console.log(x[1].substr(1))
 
 // 当访问一个越界的元素,会使用联合类型替代
-x[3] = 'world'; //ok,字符串可赋值给(string|number)类型
+//x[3] = 'world'; //ok,字符串可赋值给(string|number)类型
 
 //console.log(x[3].toString());
