@@ -21,3 +21,5 @@ for (let i=0;i<10;i++) {
     console.log("let in for[ok]:", i);
   }, 10 * 1);
 }
+
+export { };

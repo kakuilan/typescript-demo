@@ -25,3 +25,5 @@ function g() {
   //err,Cannot redeclare block-scoped variable 'x'
   //var x = 100;
 }
+
+export { };
