@@ -5,6 +5,9 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
+    "charset": "utf8",
+    "allowJs": true,
+    "checkJs": true,
     "esModuleInterop": true
   }
 }

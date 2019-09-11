@@ -1,4 +1,5 @@
-// tsconfig.json注释版
+#### tsconfig.json注释版
+```js
 const conf = {
   compilerOptions: {
     /* Basic Options */
@@ -64,3 +65,4 @@ const conf = {
     // "emitDecoratorMetadata": true,         /* 给源码里的装饰器声明加上设计类型元数据. */
   }
 };
+```
