@@ -31,10 +31,10 @@ console.log(res2); // 2
 
 // var 的函数作用域
 function f3(init: boolean) {
-  if(init) {
+  if (init) {
     var x = 10;
   }
-  return x;
+  //return x;
 }
 
 console.log(f3(true)); // 10
