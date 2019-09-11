@@ -8,6 +8,10 @@
     "charset": "utf8",
     "allowJs": true,
     "checkJs": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "lib": [
+      "es2018",
+      "dom"
+    ]
   }
 }
