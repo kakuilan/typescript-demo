@@ -20,3 +20,5 @@ console.log(x[0].substr(1)); //ok
 //x[3] = 'world'; //ok,字符串可赋值给(string|number)类型
 
 //console.log(x[3].toString());
+
+export { };

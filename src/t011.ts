@@ -39,3 +39,5 @@ function f3(init: boolean) {
 
 console.log(f3(true)); // 10
 console.log(f3(false)); // undefined
+
+export { };

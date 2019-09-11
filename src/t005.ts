@@ -17,3 +17,5 @@ let prettySure: Object = 4;
 // 包含不同类型数据的数组，使用any
 let list : any[] = [1, true, "free"];
 list[1] = 100; //ok
+
+export { };

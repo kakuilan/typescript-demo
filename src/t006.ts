@@ -7,4 +7,6 @@ function test(): void {
 
 // 声明一个void类型的变量没啥用,因为你只能为它赋值 undefined / null
 let unusable : void = undefined;
-console.log(unusable)
+console.log(unusable);
+
+export { };

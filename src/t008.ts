@@ -20,3 +20,5 @@ function infiniteLoop():never {
 
 fail();
 infiniteLoop();
+
+export { };

@@ -9,3 +9,5 @@ create(null);
 //create("string");//err
 //create(false);//err
 //create(undefined);//err
+
+export { };

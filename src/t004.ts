@@ -11,3 +11,4 @@ let c2: Color2 = Color2.Green;
 
 console.log(c2); //将打印2
 
+export { };

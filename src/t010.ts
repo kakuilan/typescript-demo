@@ -9,3 +9,5 @@ console.log("strLength:", strLength);
 let someValue2 : any = "this is a string";
 let strLength2 : number = (someValue2 as string).length;
 console.log("strLength2:", strLength2);
+
+export { };
