@@ -8,3 +8,5 @@ if (typeof x === "string") {
 
 // x依然是any类型
 x.foo(); //合法
+
+export {}
