@@ -24,5 +24,5 @@ let {a2: newName1, b2: newName2} = obj2;
 console.log(newName1, newName2);
 
 // 默认值可让你在属性为undefined时使用缺省值
-let { c2, d2=1001 } = obj2;
-console.log(c2, d2);
+//let { c2, d2=1001 } = obj2;
+//console.log(c2, d2);
