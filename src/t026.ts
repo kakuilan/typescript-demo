@@ -25,3 +25,5 @@ namespace Geometry {
 
 var vector2dInstance: Geometry.Vector2dInterface = new Geometry.Vector2d();
 var vector3dInstance: Geometry.Vector3dInterface = new Geometry.Vector3d();
+
+export {}

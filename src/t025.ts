@@ -4,7 +4,7 @@ interface LoggerInterface {
 }
 
 class Logger implements LoggerInterface {
-  log(arg) {
+  log(arg:any) {
     if (typeof console.log === "function") {
       console.log(arg);
     }else{
