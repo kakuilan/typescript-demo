@@ -27,3 +27,4 @@ console.log(counter.get());
 counter.increment();
 console.log(counter.get());
 //console.log(counter._i); //error
+export { }

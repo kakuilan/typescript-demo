@@ -9,6 +9,9 @@
     "allowJs": true,
     "checkJs": true,
     "esModuleInterop": true,
+    "types":[
+      "node"
+    ],
     "lib": [
       "es2018",
       "dom"

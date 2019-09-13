@@ -20,6 +20,6 @@ function test(value: (string|number|boolean) ):string {
 console.log(test("Remo"));
 console.log(test(26));
 console.log(test(false));
-console.log(test({custom:"hehe"}));
+//console.log(test({custom:"hehe"}));
 
 export {}
