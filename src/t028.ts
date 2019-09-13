@@ -1,5 +1,5 @@
 // 函数的可选参数
-function add(foo: number, bar:number, foobar?:number) : number {
+function add(foo:number, bar:number, foobar?:number) : number {
   var result = foo + bar;
   if (foobar!==undefined) {
     result += foobar;
