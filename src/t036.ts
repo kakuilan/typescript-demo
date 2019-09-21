@@ -1,12 +1,11 @@
-// 生成器基本例子
+// 无限循环的生成器
 
 // 生成器的构造函数
-function *foo() {
-  yield 1;
-  yield 2;
-  yield 3;
-  yield 4;
-  yield 5;
+function* foo () {
+  var i = 1;
+  while(true) {
+    yield i++;
+  }
 }
 
 // 迭代器
@@ -24,6 +23,6 @@ console.log(bar.next());
 // { value: 3, done: false }
 // { value: 4, done: false }
 // { value: 5, done: false }
-// { value: undefined, done: true }
+// { value: 6, done: false }
 
 export {};
