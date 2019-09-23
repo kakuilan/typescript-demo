@@ -46,3 +46,5 @@ applyMixins(Bat, [Mammal, WingedAnimal]);
 const bat = new Bat();
 console.log(bat.breathe());
 console.log(bat.fly());
+
+export {};
