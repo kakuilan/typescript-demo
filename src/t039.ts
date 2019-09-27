@@ -26,6 +26,7 @@ class WingedAnimal extends Animal {
 // 蝙蝠
 // implements,实现
 class Bat implements Mammal, WingedAnimal {
+  eat: () => void;
   breathe: () => string;
   fly: () => string;
 }
