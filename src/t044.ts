@@ -24,6 +24,9 @@ person.greet("Seville", "spain");
 person.greet.call(Person, "cityAa", "natioinAa");
 person.greet.apply(Person, ["cityBb", "nationBb"]);
 
+person.greet.call(person, "cityAa", "natioinAa");
+person.greet.apply(person, ["cityBb", "nationBb"]);
+
 // 下面的将报错
 // person.greet.call(null, "cityAa", "natioinAa");
 // person.greet.apply(null, ["cityBb", "nationBb"]);
