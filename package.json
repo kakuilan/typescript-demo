@@ -1,0 +1,26 @@
+{
+  "name": "ts-demo",
+  "version": "0.0.2",
+  "description": "typescript demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakuilan/typescript-demo.git"
+  },
+  "keywords": [
+    "typescript",
+    "demo"
+  ],
+  "author": "kakuilan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kakuilan/typescript-demo/issues"
+  },
+  "homepage": "https://github.com/kakuilan/typescript-demo#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
