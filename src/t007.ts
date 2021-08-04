@@ -1,12 +1,12 @@
 //接口-类类型
 
-interface ClockInterface {
+interface ClockInterface007 {
     currentTime: Date;
 
     setTime(d: Date): void;
 }
 
-class Clock implements ClockInterface {
+class Clock00 implements ClockInterface007 {
     currentTime: Date = new Date()
 
     setTime(d: Date) {
