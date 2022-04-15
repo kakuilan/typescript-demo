@@ -2,7 +2,7 @@
 
 typescript-demo
 
-## 升级依赖包
+### 升级依赖包
 
 ```shell
 ncu -u
