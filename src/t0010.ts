@@ -1,6 +1,6 @@
 //switch语句
-var grade: string = "A";
-switch (grade) {
+var grade_0010: string = "A";
+switch (grade_0010) {
     case "A": {
         console.log("优");
         break;
